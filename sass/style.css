@@ -1,0 +1,57 @@
+body {
+  padding: 35px;
+  background-color: #e3ecf3;
+}
+
+.card,
+.card-img-top,
+.card-footer {
+  border-radius: 10px !important;
+}
+
+.card {
+  transition: all 0.4s;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.card:hover {
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.card-footer {
+  border-top: none;
+  background-image: linear-gradient(silver, silver);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 30% 1px;
+  transition: all 0.4s;
+}
+
+.card-footer:hover {
+  background-size: 0% 0px;
+}
+
+.card-footer:hover .btn {
+  bottom: 5px;
+}
+
+.btn {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  bottom: 0;
+  color: #626a75;
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  background-color: #4aaaf4;
+  color: white;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.164);
+}
+
+/*# sourceMappingURL=style.css.map */
